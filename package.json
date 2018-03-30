@@ -1,0 +1,28 @@
+{
+  "name": "palindrome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "palindrome.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanbym/palindrome.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renanbym/palindrome/issues"
+  },
+  "homepage": "https://github.com/renanbym/palindrome#readme",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-resource": "^1.6.9",
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.8",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "sweetalert": "^2.1.0"
+  }
+}

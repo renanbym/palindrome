@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html ng-app="palindrome">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Palindrome</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
+
+</head>
+
+<body ng-cloak ng-controller="AppCtrl as app">
+
+    <div class="container-fluid">
+        <div class="row justify-content-center justify-content-md-center justify-content-lg-center">
+
+            <div class="col-4" style=" margin-top: 17%;" >
+
+                <form name="formPalindrome" ng-submit="submit()">
+
+                    <fieldset>
+
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="Text" ng-model="form.text" required >
+                        </div>
+
+                        <div class="form-group">
+                            <button class="col btn btn-info" type="submit">Is this palindrome?</button>
+                        </div>
+
+                    </fieldset>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="/node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/node_modules/angular/angular.js"></script>
+    <script src="/node_modules/angular-resource/angular-resource.min.js"></script>
+    <script src="/web/app.js"></script>
+    <script src="/web/app.controller.js"></script>
+
+</body>
+
+</html>
